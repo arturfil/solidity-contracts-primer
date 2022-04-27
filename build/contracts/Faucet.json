@@ -63,9 +63,9 @@
       "constant": true
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"addFunds\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getAllFunders\",\"outputs\":[{\"internalType\":\"address[]\",\"name\":\"\",\"type\":\"address[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint8\",\"name\":\"index\",\"type\":\"uint8\"}],\"name\":\"getFunderAtIndex\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"numOfFunders\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"stateMutability\":\"payable\",\"type\":\"receive\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/FaucetContract.sol\":\"Faucet\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/FaucetContract.sol\":{\"keccak256\":\"0x7b170cb850d560614a3190c99abfe0a4e3892e461fbc1213634aee9df6a04095\",\"urls\":[\"bzz-raw://71961be03665cb8a1a5b12aba4625752a01119274109936a79f0adbfca160a02\",\"dweb:/ipfs/Qme43tj1gyjgWzDnBbE1xm5qPj9tDMHxaZYUPyyS2ehnjH\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50610566806100206000396000f3fe6080604052600436106100435760003560e01c80630a93cf331461004f5780636fbbb55d1461008c578063a26759cb146100b7578063af7f2c9b146100c15761004a565b3661004a57005b600080fd5b34801561005b57600080fd5b50610076600480360381019061007191906102fb565b6100ec565b60405161008391906103c7565b60405180910390f35b34801561009857600080fd5b506100a161012c565b6040516100ae91906103e2565b60405180910390f35b6100bf610271565b005b3480156100cd57600080fd5b506100d66102e0565b6040516100e39190610404565b60405180910390f35b6000600160008360ff16815260200190815260200160002060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050919050565b60606000805467ffffffffffffffff811115610171577f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b60405190808252806020026020018201604052801561019f5781602001602082028036833780820191505090505b50905060005b600054811015610269576001600082815260200190815260200160002060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1682828151811061021c577f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b602002602001019073ffffffffffffffffffffffffffffffffffffffff16908173ffffffffffffffffffffffffffffffffffffffff16815250508080610261906104a1565b9150506101a5565b508091505090565b6000806000815480929190610285906104a1565b919050559050336001600083815260200190815260200160002060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b60005481565b6000813590506102f581610519565b92915050565b60006020828403121561030d57600080fd5b600061031b848285016102e6565b91505092915050565b6000610330838361033c565b60208301905092915050565b61034581610458565b82525050565b61035481610458565b82525050565b60006103658261042f565b61036f8185610447565b935061037a8361041f565b8060005b838110156103ab5781516103928882610324565b975061039d8361043a565b92505060018101905061037e565b5085935050505092915050565b6103c18161048a565b82525050565b60006020820190506103dc600083018461034b565b92915050565b600060208201905081810360008301526103fc818461035a565b905092915050565b600060208201905061041960008301846103b8565b92915050565b6000819050602082019050919050565b600081519050919050565b6000602082019050919050565b600082825260208201905092915050565b60006104638261046a565b9050919050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b600060ff82169050919050565b60006104ac8261048a565b91507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8214156104df576104de6104ea565b5b600182019050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b61052281610494565b811461052d57600080fd5b5056fea26469706673582212201bdb66c2824c4d61a77b5ae1de44cc1c4216ac6887d9e974915873f6ff1499fa64736f6c63430008040033",
-  "deployedBytecode": "0x6080604052600436106100435760003560e01c80630a93cf331461004f5780636fbbb55d1461008c578063a26759cb146100b7578063af7f2c9b146100c15761004a565b3661004a57005b600080fd5b34801561005b57600080fd5b50610076600480360381019061007191906102fb565b6100ec565b60405161008391906103c7565b60405180910390f35b34801561009857600080fd5b506100a161012c565b6040516100ae91906103e2565b60405180910390f35b6100bf610271565b005b3480156100cd57600080fd5b506100d66102e0565b6040516100e39190610404565b60405180910390f35b6000600160008360ff16815260200190815260200160002060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050919050565b60606000805467ffffffffffffffff811115610171577f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b60405190808252806020026020018201604052801561019f5781602001602082028036833780820191505090505b50905060005b600054811015610269576001600082815260200190815260200160002060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1682828151811061021c577f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b602002602001019073ffffffffffffffffffffffffffffffffffffffff16908173ffffffffffffffffffffffffffffffffffffffff16815250508080610261906104a1565b9150506101a5565b508091505090565b6000806000815480929190610285906104a1565b919050559050336001600083815260200190815260200160002060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b60005481565b6000813590506102f581610519565b92915050565b60006020828403121561030d57600080fd5b600061031b848285016102e6565b91505092915050565b6000610330838361033c565b60208301905092915050565b61034581610458565b82525050565b61035481610458565b82525050565b60006103658261042f565b61036f8185610447565b935061037a8361041f565b8060005b838110156103ab5781516103928882610324565b975061039d8361043a565b92505060018101905061037e565b5085935050505092915050565b6103c18161048a565b82525050565b60006020820190506103dc600083018461034b565b92915050565b600060208201905081810360008301526103fc818461035a565b905092915050565b600060208201905061041960008301846103b8565b92915050565b6000819050602082019050919050565b600081519050919050565b6000602082019050919050565b600082825260208201905092915050565b60006104638261046a565b9050919050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b600060ff82169050919050565b60006104ac8261048a565b91507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8214156104df576104de6104ea565b5b600182019050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b61052281610494565b811461052d57600080fd5b5056fea26469706673582212201bdb66c2824c4d61a77b5ae1de44cc1c4216ac6887d9e974915873f6ff1499fa64736f6c63430008040033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"addFunds\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getAllFunders\",\"outputs\":[{\"internalType\":\"address[]\",\"name\":\"\",\"type\":\"address[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint8\",\"name\":\"index\",\"type\":\"uint8\"}],\"name\":\"getFunderAtIndex\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"numOfFunders\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"stateMutability\":\"payable\",\"type\":\"receive\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/FaucetContract.sol\":\"Faucet\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/FaucetContract.sol\":{\"keccak256\":\"0xb6c8ec52bed2789455a3ba6f47c4f657e067fd398ed216240456376c15ddda4a\",\"urls\":[\"bzz-raw://905505cba03fbd815b55d7aa69ef43969c4ed3705b2b15dc016ecc75068d2ebe\",\"dweb:/ipfs/QmQPwiXQvcBASvYEwVUbfYpJTitxLd6ZkG6T4rX6Cocg4U\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610615806100206000396000f3fe6080604052600436106100435760003560e01c80630a93cf331461004f5780636fbbb55d1461008c578063a26759cb146100b7578063af7f2c9b146100c15761004a565b3661004a57005b600080fd5b34801561005b57600080fd5b50610076600480360381019061007191906103aa565b6100ec565b6040516100839190610476565b60405180910390f35b34801561009857600080fd5b506100a161012c565b6040516100ae9190610491565b60405180910390f35b6100bf610271565b005b3480156100cd57600080fd5b506100d661038f565b6040516100e391906104b3565b60405180910390f35b6000600260008360ff16815260200190815260200160002060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050919050565b60606000805467ffffffffffffffff811115610171577f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b60405190808252806020026020018201604052801561019f5781602001602082028036833780820191505090505b50905060005b600054811015610269576002600082815260200190815260200160002060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1682828151811061021c577f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b602002602001019073ffffffffffffffffffffffffffffffffffffffff16908173ffffffffffffffffffffffffffffffffffffffff1681525050808061026190610550565b9150506101a5565b508091505090565b6000339050600160008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1661038c5760008060008154809291906102db90610550565b91905055905060018060008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550816002600083815260200190815260200160002060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505b50565b60005481565b6000813590506103a4816105c8565b92915050565b6000602082840312156103bc57600080fd5b60006103ca84828501610395565b91505092915050565b60006103df83836103eb565b60208301905092915050565b6103f481610507565b82525050565b61040381610507565b82525050565b6000610414826104de565b61041e81856104f6565b9350610429836104ce565b8060005b8381101561045a57815161044188826103d3565b975061044c836104e9565b92505060018101905061042d565b5085935050505092915050565b61047081610539565b82525050565b600060208201905061048b60008301846103fa565b92915050565b600060208201905081810360008301526104ab8184610409565b905092915050565b60006020820190506104c86000830184610467565b92915050565b6000819050602082019050919050565b600081519050919050565b6000602082019050919050565b600082825260208201905092915050565b600061051282610519565b9050919050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b600060ff82169050919050565b600061055b82610539565b91507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff82141561058e5761058d610599565b5b600182019050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b6105d181610543565b81146105dc57600080fd5b5056fea26469706673582212204c0de85ddb826382573fa5366ff3310d8da3f0ae21854eb988da05b19c57bdbb64736f6c63430008040033",
+  "deployedBytecode": "0x6080604052600436106100435760003560e01c80630a93cf331461004f5780636fbbb55d1461008c578063a26759cb146100b7578063af7f2c9b146100c15761004a565b3661004a57005b600080fd5b34801561005b57600080fd5b50610076600480360381019061007191906103aa565b6100ec565b6040516100839190610476565b60405180910390f35b34801561009857600080fd5b506100a161012c565b6040516100ae9190610491565b60405180910390f35b6100bf610271565b005b3480156100cd57600080fd5b506100d661038f565b6040516100e391906104b3565b60405180910390f35b6000600260008360ff16815260200190815260200160002060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050919050565b60606000805467ffffffffffffffff811115610171577f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b60405190808252806020026020018201604052801561019f5781602001602082028036833780820191505090505b50905060005b600054811015610269576002600082815260200190815260200160002060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1682828151811061021c577f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b602002602001019073ffffffffffffffffffffffffffffffffffffffff16908173ffffffffffffffffffffffffffffffffffffffff1681525050808061026190610550565b9150506101a5565b508091505090565b6000339050600160008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1661038c5760008060008154809291906102db90610550565b91905055905060018060008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550816002600083815260200190815260200160002060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505b50565b60005481565b6000813590506103a4816105c8565b92915050565b6000602082840312156103bc57600080fd5b60006103ca84828501610395565b91505092915050565b60006103df83836103eb565b60208301905092915050565b6103f481610507565b82525050565b61040381610507565b82525050565b6000610414826104de565b61041e81856104f6565b9350610429836104ce565b8060005b8381101561045a57815161044188826103d3565b975061044c836104e9565b92505060018101905061042d565b5085935050505092915050565b61047081610539565b82525050565b600060208201905061048b60008301846103fa565b92915050565b600060208201905081810360008301526104ab8184610409565b905092915050565b60006020820190506104c86000830184610467565b92915050565b6000819050602082019050919050565b600081519050919050565b6000602082019050919050565b600082825260208201905092915050565b600061051282610519565b9050919050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b600060ff82169050919050565b600061055b82610539565b91507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff82141561058e5761058d610599565b5b600182019050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b6105d181610543565b81146105dc57600080fd5b5056fea26469706673582212204c0de85ddb826382573fa5366ff3310d8da3f0ae21854eb988da05b19c57bdbb64736f6c63430008040033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [
@@ -2173,18 +2173,18 @@
       "name": "#utility.yul"
     }
   ],
-  "sourceMap": "66:642:0:-:0;;;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "66:642:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;599:107;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;333:260;;;;;;;;;;;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;208:118;;;:::i;:::-;;93:24;;;;;;;;;;;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;599:107;659:7;685;:14;693:5;685:14;;;;;;;;;;;;;;;;;;;;;;;678:21;;599:107;;;:::o;333:260::-;380:16;408:25;450:12;;436:27;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;408:55;;478:6;473:89;494:12;;490:1;:16;473:89;;;541:7;:10;549:1;541:10;;;;;;;;;;;;;;;;;;;;;527:8;536:1;527:11;;;;;;;;;;;;;;;;;;;;;:24;;;;;;;;;;;508:3;;;;;:::i;:::-;;;;473:89;;;;578:8;571:15;;;333:260;:::o;208:118::-;255:10;268:12;;:14;;;;;;;;;:::i;:::-;;;;;255:27;;309:10;292:7;:14;300:5;292:14;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;208:118;:::o;93:24::-;;;;:::o;7:135:1:-;51:5;89:6;76:20;67:29;;105:31;130:5;105:31;:::i;:::-;57:85;;;;:::o;148:258::-;205:6;254:2;242:9;233:7;229:23;225:32;222:2;;;270:1;267;260:12;222:2;313:1;338:51;381:7;372:6;361:9;357:22;338:51;:::i;:::-;328:61;;284:115;212:194;;;;:::o;412:179::-;481:10;502:46;544:3;536:6;502:46;:::i;:::-;580:4;575:3;571:14;557:28;;492:99;;;;:::o;597:108::-;674:24;692:5;674:24;:::i;:::-;669:3;662:37;652:53;;:::o;711:118::-;798:24;816:5;798:24;:::i;:::-;793:3;786:37;776:53;;:::o;865:732::-;984:3;1013:54;1061:5;1013:54;:::i;:::-;1083:86;1162:6;1157:3;1083:86;:::i;:::-;1076:93;;1193:56;1243:5;1193:56;:::i;:::-;1272:7;1303:1;1288:284;1313:6;1310:1;1307:13;1288:284;;;1389:6;1383:13;1416:63;1475:3;1460:13;1416:63;:::i;:::-;1409:70;;1502:60;1555:6;1502:60;:::i;:::-;1492:70;;1348:224;1335:1;1332;1328:9;1323:14;;1288:284;;;1292:14;1588:3;1581:10;;989:608;;;;;;;:::o;1603:118::-;1690:24;1708:5;1690:24;:::i;:::-;1685:3;1678:37;1668:53;;:::o;1727:222::-;1820:4;1858:2;1847:9;1843:18;1835:26;;1871:71;1939:1;1928:9;1924:17;1915:6;1871:71;:::i;:::-;1825:124;;;;:::o;1955:373::-;2098:4;2136:2;2125:9;2121:18;2113:26;;2185:9;2179:4;2175:20;2171:1;2160:9;2156:17;2149:47;2213:108;2316:4;2307:6;2213:108;:::i;:::-;2205:116;;2103:225;;;;:::o;2334:222::-;2427:4;2465:2;2454:9;2450:18;2442:26;;2478:71;2546:1;2535:9;2531:17;2522:6;2478:71;:::i;:::-;2432:124;;;;:::o;2562:132::-;2629:4;2652:3;2644:11;;2682:4;2677:3;2673:14;2665:22;;2634:60;;;:::o;2700:114::-;2767:6;2801:5;2795:12;2785:22;;2774:40;;;:::o;2820:113::-;2890:4;2922;2917:3;2913:14;2905:22;;2895:38;;;:::o;2939:184::-;3038:11;3072:6;3067:3;3060:19;3112:4;3107:3;3103:14;3088:29;;3050:73;;;;:::o;3129:96::-;3166:7;3195:24;3213:5;3195:24;:::i;:::-;3184:35;;3174:51;;;:::o;3231:126::-;3268:7;3308:42;3301:5;3297:54;3286:65;;3276:81;;;:::o;3363:77::-;3400:7;3429:5;3418:16;;3408:32;;;:::o;3446:86::-;3481:7;3521:4;3514:5;3510:16;3499:27;;3489:43;;;:::o;3538:233::-;3577:3;3600:24;3618:5;3600:24;:::i;:::-;3591:33;;3646:66;3639:5;3636:77;3633:2;;;3716:18;;:::i;:::-;3633:2;3763:1;3756:5;3752:13;3745:20;;3581:190;;;:::o;3777:180::-;3825:77;3822:1;3815:88;3922:4;3919:1;3912:15;3946:4;3943:1;3936:15;3963:118;4034:22;4050:5;4034:22;:::i;:::-;4027:5;4024:33;4014:2;;4071:1;4068;4061:12;4014:2;4004:77;:::o",
-  "source": "// SPDX-Licence-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Faucet {\n    \n    uint public numOfFunders;\n    mapping(uint256 => address) private funders;\n\n    receive() external payable {}\n\n    function addFunds() external payable {\n        uint index = numOfFunders++;\n        funders[index] = msg.sender;\n    }\n\n\n    function getAllFunders() external view returns(address[] memory) {\n        address[] memory _funders = new address[](numOfFunders);\n        for (uint i = 0; i < numOfFunders; i++) {\n            _funders[i] = funders[i];\n        }\n        return _funders;\n    }\n\n    function getFunderAtIndex(uint8 index) public view returns (address) {\n        return funders[index];\n    }\n}\n\n/*\n    const instance = await Faucet.deployed();\n    instance.addFunds({from: accounts[0], value: \"2000000000000000000\"});\n    instance.addFunds({from: accounts[1], value: \"2000000000000000000\"});\n    instance.getFunderAtIndex(0);\n*/\n",
+  "sourceMap": "66:815:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "66:815:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;769:110;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;500:263;;;;;;;;;;;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;254:240;;;:::i;:::-;;93:24;;;;;;;;;;;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;769:110;829:7;855:10;:17;866:5;855:17;;;;;;;;;;;;;;;;;;;;;;;848:24;;769:110;;;:::o;500:263::-;547:16;575:25;617:12;;603:27;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;575:55;;645:6;640:92;661:12;;657:1;:16;640:92;;;708:10;:13;719:1;708:13;;;;;;;;;;;;;;;;;;;;;694:8;703:1;694:11;;;;;;;;;;;;;;;;;;;;;:27;;;;;;;;;;;675:3;;;;;:::i;:::-;;;;640:92;;;;748:8;741:15;;;500:263;:::o;254:240::-;301:14;318:10;301:27;;343:7;:15;351:6;343:15;;;;;;;;;;;;;;;;;;;;;;;;;338:150;;374:10;387:12;;:14;;;;;;;;;:::i;:::-;;;;;374:27;;433:4;415:7;:15;423:6;415:15;;;;;;;;;;;;;;;;:22;;;;;;;;;;;;;;;;;;471:6;451:10;:17;462:5;451:17;;;;;;;;;;;;:26;;;;;;;;;;;;;;;;;;338:150;;254:240;:::o;93:24::-;;;;:::o;7:135:1:-;51:5;89:6;76:20;67:29;;105:31;130:5;105:31;:::i;:::-;57:85;;;;:::o;148:258::-;205:6;254:2;242:9;233:7;229:23;225:32;222:2;;;270:1;267;260:12;222:2;313:1;338:51;381:7;372:6;361:9;357:22;338:51;:::i;:::-;328:61;;284:115;212:194;;;;:::o;412:179::-;481:10;502:46;544:3;536:6;502:46;:::i;:::-;580:4;575:3;571:14;557:28;;492:99;;;;:::o;597:108::-;674:24;692:5;674:24;:::i;:::-;669:3;662:37;652:53;;:::o;711:118::-;798:24;816:5;798:24;:::i;:::-;793:3;786:37;776:53;;:::o;865:732::-;984:3;1013:54;1061:5;1013:54;:::i;:::-;1083:86;1162:6;1157:3;1083:86;:::i;:::-;1076:93;;1193:56;1243:5;1193:56;:::i;:::-;1272:7;1303:1;1288:284;1313:6;1310:1;1307:13;1288:284;;;1389:6;1383:13;1416:63;1475:3;1460:13;1416:63;:::i;:::-;1409:70;;1502:60;1555:6;1502:60;:::i;:::-;1492:70;;1348:224;1335:1;1332;1328:9;1323:14;;1288:284;;;1292:14;1588:3;1581:10;;989:608;;;;;;;:::o;1603:118::-;1690:24;1708:5;1690:24;:::i;:::-;1685:3;1678:37;1668:53;;:::o;1727:222::-;1820:4;1858:2;1847:9;1843:18;1835:26;;1871:71;1939:1;1928:9;1924:17;1915:6;1871:71;:::i;:::-;1825:124;;;;:::o;1955:373::-;2098:4;2136:2;2125:9;2121:18;2113:26;;2185:9;2179:4;2175:20;2171:1;2160:9;2156:17;2149:47;2213:108;2316:4;2307:6;2213:108;:::i;:::-;2205:116;;2103:225;;;;:::o;2334:222::-;2427:4;2465:2;2454:9;2450:18;2442:26;;2478:71;2546:1;2535:9;2531:17;2522:6;2478:71;:::i;:::-;2432:124;;;;:::o;2562:132::-;2629:4;2652:3;2644:11;;2682:4;2677:3;2673:14;2665:22;;2634:60;;;:::o;2700:114::-;2767:6;2801:5;2795:12;2785:22;;2774:40;;;:::o;2820:113::-;2890:4;2922;2917:3;2913:14;2905:22;;2895:38;;;:::o;2939:184::-;3038:11;3072:6;3067:3;3060:19;3112:4;3107:3;3103:14;3088:29;;3050:73;;;;:::o;3129:96::-;3166:7;3195:24;3213:5;3195:24;:::i;:::-;3184:35;;3174:51;;;:::o;3231:126::-;3268:7;3308:42;3301:5;3297:54;3286:65;;3276:81;;;:::o;3363:77::-;3400:7;3429:5;3418:16;;3408:32;;;:::o;3446:86::-;3481:7;3521:4;3514:5;3510:16;3499:27;;3489:43;;;:::o;3538:233::-;3577:3;3600:24;3618:5;3600:24;:::i;:::-;3591:33;;3646:66;3639:5;3636:77;3633:2;;;3716:18;;:::i;:::-;3633:2;3763:1;3756:5;3752:13;3745:20;;3581:190;;;:::o;3777:180::-;3825:77;3822:1;3815:88;3922:4;3919:1;3912:15;3946:4;3943:1;3936:15;3963:118;4034:22;4050:5;4034:22;:::i;:::-;4027:5;4024:33;4014:2;;4071:1;4068;4061:12;4014:2;4004:77;:::o",
+  "source": "// SPDX-Licence-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Faucet {\n    \n    uint public numOfFunders;\n    mapping(address => bool) private funders;\n    mapping(uint => address) private lutFunders;\n\n    receive() external payable {}\n\n    function addFunds() external payable {\n        address funder = msg.sender;\n        if (!funders[funder]) {\n            uint index = numOfFunders++;\n            funders[funder] = true;\n            lutFunders[index] = funder;\n        }\n    }\n\n    function getAllFunders() external view returns(address[] memory) {\n        address[] memory _funders = new address[](numOfFunders);\n        for (uint i = 0; i < numOfFunders; i++) {\n            _funders[i] = lutFunders[i];\n        }\n        return _funders;\n    }\n\n    function getFunderAtIndex(uint8 index) public view returns (address) {\n        return lutFunders[index];\n    }\n}\n\n/*\n    truffle migrate --reset\n    truffle console\n    const instance = await Faucet.deployed();\n        \n    instance.addFunds({from: accounts[1], value: \"2000000000000000000\"});\n    instance.getFunderAtIndex(0);\n    instance.getAllFunders();\n*/\n",
   "sourcePath": "/Users/arturofiliovilla/Documents/solidity/faucet/solidity/contracts/FaucetContract.sol",
   "ast": {
     "absolutePath": "project:/contracts/FaucetContract.sol",
     "exportedSymbols": {
       "Faucet": [
-        80
+        100
       ]
     },
-    "id": 81,
+    "id": 101,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -2207,9 +2207,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 80,
+        "id": 100,
         "linearizedBaseContracts": [
-          80
+          100
         ],
         "name": "Faucet",
         "nameLocation": "75:6:0",
@@ -2223,7 +2223,7 @@
             "name": "numOfFunders",
             "nameLocation": "105:12:0",
             "nodeType": "VariableDeclaration",
-            "scope": 80,
+            "scope": 100,
             "src": "93:24:0",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2248,10 +2248,56 @@
             "id": 7,
             "mutability": "mutable",
             "name": "funders",
-            "nameLocation": "159:7:0",
+            "nameLocation": "156:7:0",
             "nodeType": "VariableDeclaration",
-            "scope": 80,
-            "src": "123:43:0",
+            "scope": 100,
+            "src": "123:40:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
+              "typeString": "mapping(address => bool)"
+            },
+            "typeName": {
+              "id": 6,
+              "keyType": {
+                "id": 4,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "131:7:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "123:24:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
+                "typeString": "mapping(address => bool)"
+              },
+              "valueType": {
+                "id": 5,
+                "name": "bool",
+                "nodeType": "ElementaryTypeName",
+                "src": "142:4:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                }
+              }
+            },
+            "visibility": "private"
+          },
+          {
+            "constant": false,
+            "id": 11,
+            "mutability": "mutable",
+            "name": "lutFunders",
+            "nameLocation": "202:10:0",
+            "nodeType": "VariableDeclaration",
+            "scope": 100,
+            "src": "169:43:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -2259,28 +2305,28 @@
               "typeString": "mapping(uint256 => address)"
             },
             "typeName": {
-              "id": 6,
+              "id": 10,
               "keyType": {
-                "id": 4,
-                "name": "uint256",
+                "id": 8,
+                "name": "uint",
                 "nodeType": "ElementaryTypeName",
-                "src": "131:7:0",
+                "src": "177:4:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
                 }
               },
               "nodeType": "Mapping",
-              "src": "123:27:0",
+              "src": "169:24:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_uint256_$_t_address_$",
                 "typeString": "mapping(uint256 => address)"
               },
               "valueType": {
-                "id": 5,
+                "id": 9,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "142:7:0",
+                "src": "185:7:0",
                 "stateMutability": "nonpayable",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
@@ -2292,12 +2338,12 @@
           },
           {
             "body": {
-              "id": 10,
+              "id": 14,
               "nodeType": "Block",
-              "src": "200:2:0",
+              "src": "246:2:0",
               "statements": []
             },
-            "id": 11,
+            "id": 15,
             "implemented": true,
             "kind": "receive",
             "modifiers": [],
@@ -2305,223 +2351,409 @@
             "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 8,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "180:2:0"
-            },
-            "returnParameters": {
-              "id": 9,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "200:0:0"
-            },
-            "scope": 80,
-            "src": "173:29:0",
-            "stateMutability": "payable",
-            "virtual": false,
-            "visibility": "external"
-          },
-          {
-            "body": {
-              "id": 26,
-              "nodeType": "Block",
-              "src": "245:81:0",
-              "statements": [
-                {
-                  "assignments": [
-                    15
-                  ],
-                  "declarations": [
-                    {
-                      "constant": false,
-                      "id": 15,
-                      "mutability": "mutable",
-                      "name": "index",
-                      "nameLocation": "260:5:0",
-                      "nodeType": "VariableDeclaration",
-                      "scope": 26,
-                      "src": "255:10:0",
-                      "stateVariable": false,
-                      "storageLocation": "default",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_uint256",
-                        "typeString": "uint256"
-                      },
-                      "typeName": {
-                        "id": 14,
-                        "name": "uint",
-                        "nodeType": "ElementaryTypeName",
-                        "src": "255:4:0",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_uint256",
-                          "typeString": "uint256"
-                        }
-                      },
-                      "visibility": "internal"
-                    }
-                  ],
-                  "id": 18,
-                  "initialValue": {
-                    "id": 17,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "nodeType": "UnaryOperation",
-                    "operator": "++",
-                    "prefix": false,
-                    "src": "268:14:0",
-                    "subExpression": {
-                      "id": 16,
-                      "name": "numOfFunders",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 3,
-                      "src": "268:12:0",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_uint256",
-                        "typeString": "uint256"
-                      }
-                    },
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
-                    }
-                  },
-                  "nodeType": "VariableDeclarationStatement",
-                  "src": "255:27:0"
-                },
-                {
-                  "expression": {
-                    "id": 24,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "leftHandSide": {
-                      "baseExpression": {
-                        "id": 19,
-                        "name": "funders",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 7,
-                        "src": "292:7:0",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_uint256_$_t_address_$",
-                          "typeString": "mapping(uint256 => address)"
-                        }
-                      },
-                      "id": 21,
-                      "indexExpression": {
-                        "id": 20,
-                        "name": "index",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 15,
-                        "src": "300:5:0",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_uint256",
-                          "typeString": "uint256"
-                        }
-                      },
-                      "isConstant": false,
-                      "isLValue": true,
-                      "isPure": false,
-                      "lValueRequested": true,
-                      "nodeType": "IndexAccess",
-                      "src": "292:14:0",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_address",
-                        "typeString": "address"
-                      }
-                    },
-                    "nodeType": "Assignment",
-                    "operator": "=",
-                    "rightHandSide": {
-                      "expression": {
-                        "id": 22,
-                        "name": "msg",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 4294967281,
-                        "src": "309:3:0",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_magic_message",
-                          "typeString": "msg"
-                        }
-                      },
-                      "id": 23,
-                      "isConstant": false,
-                      "isLValue": false,
-                      "isPure": false,
-                      "lValueRequested": false,
-                      "memberName": "sender",
-                      "nodeType": "MemberAccess",
-                      "src": "309:10:0",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_address",
-                        "typeString": "address"
-                      }
-                    },
-                    "src": "292:27:0",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "id": 25,
-                  "nodeType": "ExpressionStatement",
-                  "src": "292:27:0"
-                }
-              ]
-            },
-            "functionSelector": "a26759cb",
-            "id": 27,
-            "implemented": true,
-            "kind": "function",
-            "modifiers": [],
-            "name": "addFunds",
-            "nameLocation": "217:8:0",
-            "nodeType": "FunctionDefinition",
-            "parameters": {
               "id": 12,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "225:2:0"
+              "src": "226:2:0"
             },
             "returnParameters": {
               "id": 13,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "245:0:0"
+              "src": "246:0:0"
             },
-            "scope": 80,
-            "src": "208:118:0",
+            "scope": 100,
+            "src": "219:29:0",
             "stateMutability": "payable",
             "virtual": false,
             "visibility": "external"
           },
           {
             "body": {
-              "id": 66,
+              "id": 46,
               "nodeType": "Block",
-              "src": "398:195:0",
+              "src": "291:203:0",
               "statements": [
                 {
                   "assignments": [
-                    37
+                    19
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 37,
+                      "id": 19,
+                      "mutability": "mutable",
+                      "name": "funder",
+                      "nameLocation": "309:6:0",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 46,
+                      "src": "301:14:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      },
+                      "typeName": {
+                        "id": 18,
+                        "name": "address",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "301:7:0",
+                        "stateMutability": "nonpayable",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 22,
+                  "initialValue": {
+                    "expression": {
+                      "id": 20,
+                      "name": "msg",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 4294967281,
+                      "src": "318:3:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_magic_message",
+                        "typeString": "msg"
+                      }
+                    },
+                    "id": 21,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberName": "sender",
+                    "nodeType": "MemberAccess",
+                    "src": "318:10:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "301:27:0"
+                },
+                {
+                  "condition": {
+                    "id": 26,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "UnaryOperation",
+                    "operator": "!",
+                    "prefix": true,
+                    "src": "342:16:0",
+                    "subExpression": {
+                      "baseExpression": {
+                        "id": 23,
+                        "name": "funders",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 7,
+                        "src": "343:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
+                          "typeString": "mapping(address => bool)"
+                        }
+                      },
+                      "id": 25,
+                      "indexExpression": {
+                        "id": 24,
+                        "name": "funder",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 19,
+                        "src": "351:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "IndexAccess",
+                      "src": "343:15:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 45,
+                  "nodeType": "IfStatement",
+                  "src": "338:150:0",
+                  "trueBody": {
+                    "id": 44,
+                    "nodeType": "Block",
+                    "src": "360:128:0",
+                    "statements": [
+                      {
+                        "assignments": [
+                          28
+                        ],
+                        "declarations": [
+                          {
+                            "constant": false,
+                            "id": 28,
+                            "mutability": "mutable",
+                            "name": "index",
+                            "nameLocation": "379:5:0",
+                            "nodeType": "VariableDeclaration",
+                            "scope": 44,
+                            "src": "374:10:0",
+                            "stateVariable": false,
+                            "storageLocation": "default",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            },
+                            "typeName": {
+                              "id": 27,
+                              "name": "uint",
+                              "nodeType": "ElementaryTypeName",
+                              "src": "374:4:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            },
+                            "visibility": "internal"
+                          }
+                        ],
+                        "id": 31,
+                        "initialValue": {
+                          "id": 30,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "nodeType": "UnaryOperation",
+                          "operator": "++",
+                          "prefix": false,
+                          "src": "387:14:0",
+                          "subExpression": {
+                            "id": 29,
+                            "name": "numOfFunders",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 3,
+                            "src": "387:12:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "nodeType": "VariableDeclarationStatement",
+                        "src": "374:27:0"
+                      },
+                      {
+                        "expression": {
+                          "id": 36,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "baseExpression": {
+                              "id": 32,
+                              "name": "funders",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 7,
+                              "src": "415:7:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
+                                "typeString": "mapping(address => bool)"
+                              }
+                            },
+                            "id": 34,
+                            "indexExpression": {
+                              "id": 33,
+                              "name": "funder",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 19,
+                              "src": "423:6:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                              }
+                            },
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": true,
+                            "nodeType": "IndexAccess",
+                            "src": "415:15:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bool",
+                              "typeString": "bool"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "hexValue": "74727565",
+                            "id": 35,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "bool",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "433:4:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bool",
+                              "typeString": "bool"
+                            },
+                            "value": "true"
+                          },
+                          "src": "415:22:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          }
+                        },
+                        "id": 37,
+                        "nodeType": "ExpressionStatement",
+                        "src": "415:22:0"
+                      },
+                      {
+                        "expression": {
+                          "id": 42,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "baseExpression": {
+                              "id": 38,
+                              "name": "lutFunders",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 11,
+                              "src": "451:10:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_mapping$_t_uint256_$_t_address_$",
+                                "typeString": "mapping(uint256 => address)"
+                              }
+                            },
+                            "id": 40,
+                            "indexExpression": {
+                              "id": 39,
+                              "name": "index",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 28,
+                              "src": "462:5:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            },
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": true,
+                            "nodeType": "IndexAccess",
+                            "src": "451:17:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "id": 41,
+                            "name": "funder",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 19,
+                            "src": "471:6:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          },
+                          "src": "451:26:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "id": 43,
+                        "nodeType": "ExpressionStatement",
+                        "src": "451:26:0"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "functionSelector": "a26759cb",
+            "id": 47,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "addFunds",
+            "nameLocation": "263:8:0",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 16,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "271:2:0"
+            },
+            "returnParameters": {
+              "id": 17,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "291:0:0"
+            },
+            "scope": 100,
+            "src": "254:240:0",
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "body": {
+              "id": 86,
+              "nodeType": "Block",
+              "src": "565:198:0",
+              "statements": [
+                {
+                  "assignments": [
+                    57
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 57,
                       "mutability": "mutable",
                       "name": "_funders",
-                      "nameLocation": "425:8:0",
+                      "nameLocation": "592:8:0",
                       "nodeType": "VariableDeclaration",
-                      "scope": 66,
-                      "src": "408:25:0",
+                      "scope": 86,
+                      "src": "575:25:0",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
@@ -2530,18 +2762,18 @@
                       },
                       "typeName": {
                         "baseType": {
-                          "id": 35,
+                          "id": 55,
                           "name": "address",
                           "nodeType": "ElementaryTypeName",
-                          "src": "408:7:0",
+                          "src": "575:7:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
                           }
                         },
-                        "id": 36,
+                        "id": 56,
                         "nodeType": "ArrayTypeName",
-                        "src": "408:9:0",
+                        "src": "575:9:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
                           "typeString": "address[]"
@@ -2550,16 +2782,16 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 43,
+                  "id": 63,
                   "initialValue": {
                     "arguments": [
                       {
-                        "id": 41,
+                        "id": 61,
                         "name": "numOfFunders",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 3,
-                        "src": "450:12:0",
+                        "src": "617:12:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2573,39 +2805,39 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 40,
+                      "id": 60,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "lValueRequested": false,
                       "nodeType": "NewExpression",
-                      "src": "436:13:0",
+                      "src": "603:13:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_objectcreation_pure$_t_uint256_$returns$_t_array$_t_address_$dyn_memory_ptr_$",
                         "typeString": "function (uint256) pure returns (address[] memory)"
                       },
                       "typeName": {
                         "baseType": {
-                          "id": 38,
+                          "id": 58,
                           "name": "address",
                           "nodeType": "ElementaryTypeName",
-                          "src": "440:7:0",
+                          "src": "607:7:0",
                           "stateMutability": "nonpayable",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
                           }
                         },
-                        "id": 39,
+                        "id": 59,
                         "nodeType": "ArrayTypeName",
-                        "src": "440:9:0",
+                        "src": "607:9:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
                           "typeString": "address[]"
                         }
                       }
                     },
-                    "id": 42,
+                    "id": 62,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2613,7 +2845,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "436:27:0",
+                    "src": "603:27:0",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_address_$dyn_memory_ptr",
@@ -2621,42 +2853,42 @@
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "408:55:0"
+                  "src": "575:55:0"
                 },
                 {
                   "body": {
-                    "id": 62,
+                    "id": 82,
                     "nodeType": "Block",
-                    "src": "513:49:0",
+                    "src": "680:52:0",
                     "statements": [
                       {
                         "expression": {
-                          "id": 60,
+                          "id": 80,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftHandSide": {
                             "baseExpression": {
-                              "id": 54,
+                              "id": 74,
                               "name": "_funders",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 37,
-                              "src": "527:8:0",
+                              "referencedDeclaration": 57,
+                              "src": "694:8:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_array$_t_address_$dyn_memory_ptr",
                                 "typeString": "address[] memory"
                               }
                             },
-                            "id": 56,
+                            "id": 76,
                             "indexExpression": {
-                              "id": 55,
+                              "id": 75,
                               "name": "i",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 45,
-                              "src": "536:1:0",
+                              "referencedDeclaration": 65,
+                              "src": "703:1:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -2667,7 +2899,7 @@
                             "isPure": false,
                             "lValueRequested": true,
                             "nodeType": "IndexAccess",
-                            "src": "527:11:0",
+                            "src": "694:11:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -2677,25 +2909,25 @@
                           "operator": "=",
                           "rightHandSide": {
                             "baseExpression": {
-                              "id": 57,
-                              "name": "funders",
+                              "id": 77,
+                              "name": "lutFunders",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 7,
-                              "src": "541:7:0",
+                              "referencedDeclaration": 11,
+                              "src": "708:10:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_uint256_$_t_address_$",
                                 "typeString": "mapping(uint256 => address)"
                               }
                             },
-                            "id": 59,
+                            "id": 79,
                             "indexExpression": {
-                              "id": 58,
+                              "id": 78,
                               "name": "i",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 45,
-                              "src": "549:1:0",
+                              "referencedDeclaration": 65,
+                              "src": "719:1:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -2706,21 +2938,21 @@
                             "isPure": false,
                             "lValueRequested": false,
                             "nodeType": "IndexAccess",
-                            "src": "541:10:0",
+                            "src": "708:13:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
                             }
                           },
-                          "src": "527:24:0",
+                          "src": "694:27:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
                           }
                         },
-                        "id": 61,
+                        "id": 81,
                         "nodeType": "ExpressionStatement",
-                        "src": "527:24:0"
+                        "src": "694:27:0"
                       }
                     ]
                   },
@@ -2729,18 +2961,18 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 50,
+                    "id": 70,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
-                      "id": 48,
+                      "id": 68,
                       "name": "i",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 45,
-                      "src": "490:1:0",
+                      "referencedDeclaration": 65,
+                      "src": "657:1:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -2749,38 +2981,38 @@
                     "nodeType": "BinaryOperation",
                     "operator": "<",
                     "rightExpression": {
-                      "id": 49,
+                      "id": 69,
                       "name": "numOfFunders",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 3,
-                      "src": "494:12:0",
+                      "src": "661:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "490:16:0",
+                    "src": "657:16:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "id": 63,
+                  "id": 83,
                   "initializationExpression": {
                     "assignments": [
-                      45
+                      65
                     ],
                     "declarations": [
                       {
                         "constant": false,
-                        "id": 45,
+                        "id": 65,
                         "mutability": "mutable",
                         "name": "i",
-                        "nameLocation": "483:1:0",
+                        "nameLocation": "650:1:0",
                         "nodeType": "VariableDeclaration",
-                        "scope": 63,
-                        "src": "478:6:0",
+                        "scope": 83,
+                        "src": "645:6:0",
                         "stateVariable": false,
                         "storageLocation": "default",
                         "typeDescriptions": {
@@ -2788,10 +3020,10 @@
                           "typeString": "uint256"
                         },
                         "typeName": {
-                          "id": 44,
+                          "id": 64,
                           "name": "uint",
                           "nodeType": "ElementaryTypeName",
-                          "src": "478:4:0",
+                          "src": "645:4:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -2800,17 +3032,17 @@
                         "visibility": "internal"
                       }
                     ],
-                    "id": 47,
+                    "id": 67,
                     "initialValue": {
                       "hexValue": "30",
-                      "id": 46,
+                      "id": 66,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "487:1:0",
+                      "src": "654:1:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_0_by_1",
                         "typeString": "int_const 0"
@@ -2818,11 +3050,11 @@
                       "value": "0"
                     },
                     "nodeType": "VariableDeclarationStatement",
-                    "src": "478:10:0"
+                    "src": "645:10:0"
                   },
                   "loopExpression": {
                     "expression": {
-                      "id": 52,
+                      "id": 72,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2830,14 +3062,14 @@
                       "nodeType": "UnaryOperation",
                       "operator": "++",
                       "prefix": false,
-                      "src": "508:3:0",
+                      "src": "675:3:0",
                       "subExpression": {
-                        "id": 51,
+                        "id": 71,
                         "name": "i",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 45,
-                        "src": "508:1:0",
+                        "referencedDeclaration": 65,
+                        "src": "675:1:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2848,60 +3080,60 @@
                         "typeString": "uint256"
                       }
                     },
-                    "id": 53,
+                    "id": 73,
                     "nodeType": "ExpressionStatement",
-                    "src": "508:3:0"
+                    "src": "675:3:0"
                   },
                   "nodeType": "ForStatement",
-                  "src": "473:89:0"
+                  "src": "640:92:0"
                 },
                 {
                   "expression": {
-                    "id": 64,
+                    "id": 84,
                     "name": "_funders",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 37,
-                    "src": "578:8:0",
+                    "referencedDeclaration": 57,
+                    "src": "748:8:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_address_$dyn_memory_ptr",
                       "typeString": "address[] memory"
                     }
                   },
-                  "functionReturnParameters": 32,
-                  "id": 65,
+                  "functionReturnParameters": 52,
+                  "id": 85,
                   "nodeType": "Return",
-                  "src": "571:15:0"
+                  "src": "741:15:0"
                 }
               ]
             },
             "functionSelector": "6fbbb55d",
-            "id": 67,
+            "id": 87,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getAllFunders",
-            "nameLocation": "342:13:0",
+            "nameLocation": "509:13:0",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 28,
+              "id": 48,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "355:2:0"
+              "src": "522:2:0"
             },
             "returnParameters": {
-              "id": 32,
+              "id": 52,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 31,
+                  "id": 51,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 67,
-                  "src": "380:16:0",
+                  "scope": 87,
+                  "src": "547:16:0",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -2910,19 +3142,19 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 29,
+                      "id": 49,
                       "name": "address",
                       "nodeType": "ElementaryTypeName",
-                      "src": "380:7:0",
+                      "src": "547:7:0",
                       "stateMutability": "nonpayable",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
                       }
                     },
-                    "id": 30,
+                    "id": 50,
                     "nodeType": "ArrayTypeName",
-                    "src": "380:9:0",
+                    "src": "547:9:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
                       "typeString": "address[]"
@@ -2931,42 +3163,42 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "379:18:0"
+              "src": "546:18:0"
             },
-            "scope": 80,
-            "src": "333:260:0",
+            "scope": 100,
+            "src": "500:263:0",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "body": {
-              "id": 78,
+              "id": 98,
               "nodeType": "Block",
-              "src": "668:38:0",
+              "src": "838:41:0",
               "statements": [
                 {
                   "expression": {
                     "baseExpression": {
-                      "id": 74,
-                      "name": "funders",
+                      "id": 94,
+                      "name": "lutFunders",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 7,
-                      "src": "685:7:0",
+                      "referencedDeclaration": 11,
+                      "src": "855:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_uint256_$_t_address_$",
                         "typeString": "mapping(uint256 => address)"
                       }
                     },
-                    "id": 76,
+                    "id": 96,
                     "indexExpression": {
-                      "id": 75,
+                      "id": 95,
                       "name": "index",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 69,
-                      "src": "693:5:0",
+                      "referencedDeclaration": 89,
+                      "src": "866:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint8",
                         "typeString": "uint8"
@@ -2977,40 +3209,40 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "685:14:0",
+                    "src": "855:17:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 73,
-                  "id": 77,
+                  "functionReturnParameters": 93,
+                  "id": 97,
                   "nodeType": "Return",
-                  "src": "678:21:0"
+                  "src": "848:24:0"
                 }
               ]
             },
             "functionSelector": "0a93cf33",
-            "id": 79,
+            "id": 99,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getFunderAtIndex",
-            "nameLocation": "608:16:0",
+            "nameLocation": "778:16:0",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 70,
+              "id": 90,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 69,
+                  "id": 89,
                   "mutability": "mutable",
                   "name": "index",
-                  "nameLocation": "631:5:0",
+                  "nameLocation": "801:5:0",
                   "nodeType": "VariableDeclaration",
-                  "scope": 79,
-                  "src": "625:11:0",
+                  "scope": 99,
+                  "src": "795:11:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3018,10 +3250,10 @@
                     "typeString": "uint8"
                   },
                   "typeName": {
-                    "id": 68,
+                    "id": 88,
                     "name": "uint8",
                     "nodeType": "ElementaryTypeName",
-                    "src": "625:5:0",
+                    "src": "795:5:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint8",
                       "typeString": "uint8"
@@ -3030,21 +3262,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "624:13:0"
+              "src": "794:13:0"
             },
             "returnParameters": {
-              "id": 73,
+              "id": 93,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 72,
+                  "id": 92,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 79,
-                  "src": "659:7:0",
+                  "scope": 99,
+                  "src": "829:7:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3052,10 +3284,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 71,
+                    "id": 91,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "659:7:0",
+                    "src": "829:7:0",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -3065,21 +3297,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "658:9:0"
+              "src": "828:9:0"
             },
-            "scope": 80,
-            "src": "599:107:0",
+            "scope": 100,
+            "src": "769:110:0",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 81,
-        "src": "66:642:0",
+        "scope": 101,
+        "src": "66:815:0",
         "usedErrors": []
       }
     ],
-    "src": "32:912:0"
+    "src": "32:1098:0"
   },
   "compiler": {
     "name": "solc",
@@ -3089,12 +3321,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x5BC6838B3F07335c46D1E7527437c91fad474299",
-      "transactionHash": "0xbb5272013ffc27cce7236166b5920f3be25b57282c7c9f1db746566549275525"
+      "address": "0x3273D1dF3DaeF4dd71b8378efc6A37A3647aAB9A",
+      "transactionHash": "0xece30b831a6829d0f2deae7be9cd07cfbf5377db1eadaf3afbb8a0c9a8001766"
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-04-27T04:38:37.177Z",
+  "updatedAt": "2022-04-27T05:29:18.173Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

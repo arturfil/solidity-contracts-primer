@@ -5,28 +5,35 @@ contract Faucet {
     
     uint public numOfFunders;
     mapping(address => bool) private funders;
+    mapping(uint => address) private lutFunders;
 
     receive() external payable {}
 
     function addFunds() external payable {
-        uint index = numOfFunders++;
         address funder = msg.sender;
         if (!funders[funder]) {
-            numOfFunders++;
+            uint index = numOfFunders++;
             funders[funder] = true;
+            lutFunders[index] = funder;
+        }
+    }
+
+    function withdraw(uint withdrawAmount) external {
+        if (withdrawAmount < 1000000000000000000) {
+            payable(msg.sender).transfer(withdrawAmount);
         }
     }
 
     function getAllFunders() external view returns(address[] memory) {
         address[] memory _funders = new address[](numOfFunders);
         for (uint i = 0; i < numOfFunders; i++) {
-            _funders[i] = funders[i];
+            _funders[i] = lutFunders[i];
         }
         return _funders;
     }
 
     function getFunderAtIndex(uint8 index) public view returns (address) {
-        return funders[index];
+        return lutFunders[index];
     }
 }
 
